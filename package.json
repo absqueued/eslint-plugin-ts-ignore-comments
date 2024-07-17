@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ts-ignore-comments",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Enforce a custom description for // @ts-ignore comments",
   "main": "./lib/index.js",
   "scripts": {
