@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-ts-ignore-comments",
+  "version": "0.1.0",
+  "description": "Enforce a custom description for // @ts-ignore comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absqueued/eslint-plugin-ts-ignore-comments.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "typescript",
+    "ts-error",
+    "ban-ts-comment",
+    "tslint"
+  ],
+  "author": "Shekhar K. Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/absqueued/eslint-plugin-ts-ignore-comments/issues"
+  },
+  "homepage": "https://github.com/absqueued/eslint-plugin-ts-ignore-comments#readme"
+}
