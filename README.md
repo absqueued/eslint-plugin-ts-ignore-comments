@@ -1,6 +1,7 @@
 # @absqueued/eslint-plugin-ts-ignore-comments
 
 [![npm version](https://badge.fury.io/js/@absqueued%2Feslint-plugin-ts-ignore-comments.svg)](https://badge.fury.io/js/@absqueued%2Feslint-plugin-ts-ignore-comments)
+![Test Status](https://github.com/absqueued/eslint-plugin-ts-ignore-comments/actions/workflows/lint-test.yml/badge.svg)
 
 This package is a custom ESLint plugin designed to enforce a standardized comment format for the `// @ts-ignore` directive in your codebase. This rule ensures that every instance of `// @ts-ignore` is accompanied by a comment explaining the reason for its usage and a plan to address it in the future. This practice helps maintain high-quality code by preventing lazy use of `// @ts-ignore` and promoting accountability among team members.
 
