@@ -37,13 +37,13 @@ module.exports = {
         "@absqueued/ts-ignore-comments"
     ],
     "rules": {
-        "@absqueued/ts-ignore-comments/comment": "error" // or "warn"
+        "@absqueued/ts-ignore-comments/comments": "error", // or "warn"
     }
 }
 ```
 
 ## Supported Rules
-* **`comment`**: Enforces the use of `// @ts-ignore` comments in TypeScript files. This rule can help in identifying places where `@ts-ignore` is used, potentially highlighting areas of the code that may need closer inspection or refactoring.
+* **`comments`**: Enforces the use of `// @ts-ignore` comments in TypeScript files. This rule can help in identifying places where `@ts-ignore` is used, potentially highlighting areas of the code that may need closer inspection or refactoring.
 
 ## Licensing
 The code in this project is licensed under the MIT license. See the LICENSE file for more information.
