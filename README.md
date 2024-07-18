@@ -15,11 +15,15 @@ In many projects, `// @ts-ignore` is often used to quickly bypass TypeScript err
 ## Installation
 You can install `@absqueued/eslint-plugin-ts-ignore-comments` using npm or yarn:
 
-`npm install @absqueued/eslint-plugin-ts-ignore-comments --save-dev`
+```bash
+npm install @absqueued/eslint-plugin-ts-ignore-comments --save-dev
+```
 
 or
 
-`yarn add @absqueued/eslint-plugin-ts-ignore-comments --dev`
+```bash
+yarn add @absqueued/eslint-plugin-ts-ignore-comments --dev
+```
 
 ## Usage
 After installation, add `@absqueued/ts-ignore-comments` to the plugins section of your `.eslintrc` configuration file. Then configure the rules you want to use under the rules section.
