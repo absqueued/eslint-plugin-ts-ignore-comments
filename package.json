@@ -12,11 +12,12 @@
   },
   "keywords": [
     "eslint",
+    "tslint",
     "eslint-plugin",
     "typescript",
-    "ts-error",
-    "ban-ts-comment",
-    "tslint"
+    "ts-ignore",
+    "expect-ts-error",
+    "ban-ts-comment"
   ],
   "author": "Shekhar K. Sharma",
   "license": "MIT",
