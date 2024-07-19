@@ -30,6 +30,8 @@ After installation, add `@absqueued/ts-ignore-comments` to the plugins section o
 
 This plugin works out of the box with the default ESLint parser.
 
+#### Basic setup
+
 ```js
 module.exports = {
     "plugins": [
@@ -40,6 +42,37 @@ module.exports = {
         "@absqueued/ts-ignore-comments/comments": "error", // or "warn"
     }
 }
+```
+
+#### Custom message setup
+
+Add a `pattern` property to the options. You can define regex patterns to match your custom message requirement. 
+
+```js
+module.exports = {
+    "plugins": [
+        ...
+        "@absqueued/ts-ignore-comments"
+    ],
+    "rules": {
+        "@absqueued/ts-ignore-comments/comments": ["error", {
+            pattern: '@ts-ignore TODO: DEGR-\\d+ .+'
+        }],
+    }
+}
+```
+
+#### Examples 
+For more, checkout the [example](./example/) direction
+```ts
+// <index.ts>
+// @ts-ignore TODO: DEGR-1234 this is a valid comment
+const validUsage = 42;
+
+// @ts-ignore cant fix - invalid comment
+const invalidUsage = 42;
+
+console.log({ validUsage, invalidUsage });
 ```
 
 ## Supported Rules
